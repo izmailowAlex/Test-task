@@ -1,0 +1,22 @@
+.nav__list {
+  padding-inline-start: 0;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav__item {
+  padding: 10px 30px;
+  border: 1px solid #3c3c3c;
+  box-shadow: inset 4px 4px 25px rgba(241, 241, 241, 0.25);
+  border-radius: 5px;
+}
+
+.header__nav-btn {
+  text-decoration: none;
+  color: var(--white-hidden);
+}
+
+.nav__item:hover .header__nav-btn {
+  color: var(--white);
+}
