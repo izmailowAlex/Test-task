@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6dd59df6.css",
+    "main.js": "./static/js/main.defdd2bd.js",
+    "static/media/ico_insta.svg": "./static/media/ico_insta.3fd6518891664a9a52a295bcfef729d7.svg",
+    "static/media/employer.svg": "./static/media/employer.42cc50e03a9e65623f2af140f0b30dd9.svg",
+    "static/media/ico_facebook.svg": "./static/media/ico_facebook.5cd3391cfbb23f305dedc09ffa56a8de.svg",
+    "static/media/ico_fire.svg": "./static/media/ico_fire.fbfcdcf030dd2454e68ff7e356c004aa.svg",
+    "static/media/logo.svg": "./static/media/logo.02fb44d167ba3ccdabeb2eaca05bf7ad.svg",
+    "static/media/ico_whatsApp.svg": "./static/media/ico_whatsApp.65951758f563d6c0f08cbd3cfa79d707.svg",
+    "static/media/ico_telegram.svg": "./static/media/ico_telegram.5a2f8deaeec15ea285569ecd1ef83bd7.svg",
+    "static/media/ico_mail.svg": "./static/media/ico_mail.9c6d9d28eb375068c5e1028d955d3f55.svg",
+    "static/media/ico_phone.svg": "./static/media/ico_phone.da2b67afb97bfe5fd521c0177082179d.svg",
+    "static/media/ico_pen.svg": "./static/media/ico_pen.d11f6b44d87290f483913d56676c09c6.svg",
+    "index.html": "./index.html",
+    "static/media/ico_dot.svg": "./static/media/ico_dot.bdee3732cd6e25cd44b0832e62974c43.svg",
+    "main.6dd59df6.css.map": "./static/css/main.6dd59df6.css.map",
+    "main.defdd2bd.js.map": "./static/js/main.defdd2bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dd59df6.css",
+    "static/js/main.defdd2bd.js"
+  ]
+}
