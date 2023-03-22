@@ -1,0 +1,67 @@
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.control__title {
+  text-decoration: none;
+  color: var(--green-disabled);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control__select {
+  position: relative;
+  display: flex;
+  height: 3em;
+  line-height: 3;
+  border-radius: .25em;
+  overflow: hidden;
+}
+
+.control__select::after {
+  content: url(./../../images/arrow_select.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  pointer-events: none;
+}
+
+.control__select:hover::after {
+  opacity: 0.55;
+}
+
+.control__select-img {
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 15px;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+}
+
+.control__select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--grey);
+  color: var(--white);
+  background: var(--background-color);
+  cursor: pointer;
+}
+
+.control__select select::-ms-expand {
+  display: none;
+}

@@ -1,15 +1,10 @@
-import { Routes, Route } from "react-router-dom";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import Nav from "../Nav/Nav";
+import Social from "../Social/Social";
 import logo from "../../images/logo.svg";
 import phone from "../../images/ico_phone.svg";
 import dot from "../../images/ico_dot.svg";
-import whatsApp from "../../images/ico_whatsApp.svg";
-import telegram from "../../images/ico_telegram.svg";
-import insta from "../../images/ico_insta.svg";
-import facebook from "../../images/ico_facebook.svg";
-import mail from "../../images/ico_mail.svg";
-import Nav from "../Nav/Nav";
 
 function Header() {
   return (
@@ -30,13 +25,7 @@ function Header() {
             </div>
           </div>
           <div className="header-wrapper">
-            <div className="header-social_wrapper">
-              <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img className="header__image-social" src={whatsApp} alt="whatsApp" /></a>
-              <a href="https://username.t.me/" target="_blank" rel="noopener noreferrer"><img className="header__image-social" src={telegram} alt="telegram" /></a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img className="header__image-social" src={insta} alt="insta" /></a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img className="header__image-social" src={facebook} alt="facebook" /></a>
-              <a href="https://www.gmail.com/" target="_blank" rel="noopener noreferrer"><img className="header__image-social" src={mail} alt="mail" /></a>
-            </div>
+            <Social />
             <div className="header-wrapper-row">
               <img className="header__image-dot" src={dot} alt="phone" />
               <span className="header-text">Пишите, мы онлайн</span>
@@ -52,7 +41,7 @@ function Header() {
           </div>
         </div>
         <div className="header-down">
-          <Nav></Nav>
+          <Nav />
         </div>
       </div>
     </div>
