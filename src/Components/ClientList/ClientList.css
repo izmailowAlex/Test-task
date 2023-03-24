@@ -1,40 +1,126 @@
 .clientList {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .clientList-item {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .clientList__title {
-    padding-bottom: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    border-bottom: 1px solid var(--white);
+  padding-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 1px solid var(--white);
+}
+
+.clientList-arrow {
+  display: none;
 }
 
 .clientList-block {
-    padding-inline-start: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  padding-inline-start: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .clientList-block__item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.item-img__img {
+  width: 26px;
+  height: 26px;
+  background-image: url("/public/images/ico_tick.svg");
+  background-position: center;
 }
 
 .item__text {
-    border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
 }
 
 .clientList-block__item:hover .item__text {
+  border-bottom: none;
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+
+  .clientList {
+    gap: 10px;
+  }
+
+  .clientList__title {
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+  }
+
+  .item-img__img {
+    width: 18px;
+    height: 18px;
+    background-image: url("/public/images/ico_tick-min.svg");
+  }
+
+  .item__text {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .clientList {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .clientList-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .clientList__title {
+    padding-bottom: 0;
+    font-size: 1.2rem;
+    color: var(--gold);
     border-bottom: none;
+  }
+
+  .clientList-arrow {
+    display: block;
+  }
+
+  .clientList-arrow__img {
+    width: 8px;
+    height: 8px;
+    background-image: url(/public/images/arrow_gold-min.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .clientList-block {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .clientList-item.active .clientList-block {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+
+  .clientList-item.active .clientList-arrow__img {
+    transform: rotate(180deg);
+  }
+
 }

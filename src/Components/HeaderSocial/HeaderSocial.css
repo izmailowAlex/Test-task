@@ -1,0 +1,13 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .header-wrapper-social {
+    display: none;
+  }
+
+  .header-wrapper-img-dot {
+    width: 5px;
+    height: 5px;
+    background-image: url("/public/images/ico_dot-min.svg");
+  }
+  
+}

@@ -9,6 +9,7 @@
   --white-hidden: rgba(255, 255, 255, 0.8);
   --grey: #444343;
   --red: #ff0000;
+  --gold:#E7B97E;
   --background-color: #2c2c2e;
 }
 
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   font-family: Roboto;
   -webkit-font-smoothing: antialiased;

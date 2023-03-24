@@ -9,6 +9,10 @@
   margin-bottom: 10px;
 }
 
+.request-form__text_span {
+  margin-left: 5px;
+}
+
 .request-form__text-link {
   text-decoration: none;
   color: var(--green);
@@ -26,14 +30,13 @@
   width: 426px;
   height: 56px;
   border: 1px solid var(--green);
+  background: var(--background-color);
   border-radius: 5px;
   outline: none;
 }
 
 .request-form__error {
   color: var(--red);
-  /* position: absolute; */
-  /* top: 85px; */
 }
 
 .request-form__button {
@@ -41,9 +44,8 @@
   height: 56px;
   border: 1px solid var(--green-disabled);
   border-radius: 5px;
+  font-size: 1.3rem;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
   background-color: var(--green);
   color: var(--white);
   cursor: pointer;
@@ -61,4 +63,58 @@
   display: inline-block;
   margin-left: 12px;
   vertical-align: middle;
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+
+  .request-form {
+    width: 430px;
+  }
+  
+  .request-form__text-fire {
+    margin-left: 5px;
+    margin-top: -15px;
+    display: inline-block;
+  }
+
+  .request-form__input {
+    width: 430px;
+  }
+
+  .request-form__button {
+    width: 430px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .request-form {
+    width: 100%;
+  }
+
+  .request-form__text {
+    font-size: 0.7rem;
+  }
+  
+  .request-form__text-fire {
+    display: none;
+  }
+  
+  .request-form__text-fire img {
+    margin-bottom: -5px;
+  }
+
+  .request-form__input {
+    width: 100%;
+  }
+
+  .request-form__input::placeholder {
+    color: var(--white);
+  }
+
+  .request-form__button {
+    width: 100%;
+  }
+
 }

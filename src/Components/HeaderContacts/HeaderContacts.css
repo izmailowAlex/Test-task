@@ -1,0 +1,67 @@
+.header-wrapper-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-wrapper-img-phone {
+  width: 23px;
+  height: 23px;
+  background-image: url("/public/images/ico_phone.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-number {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--green);
+}
+
+.header-wrapper-img-dot {
+  width: 10px;
+  height: 10px;
+  background-image: url("/public/images/ico_dot.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+
+  .header-number {
+    font-size: 1rem;
+  }
+
+  .header-text {
+    font-size: 0.8rem;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .header-wrapper-row {
+    gap: 10px;
+  }
+
+  .header-wrapper-img-phone {
+    width: 14px;
+    height: 14px;
+    background-image: url("/public/images/ico_phone-min.svg");
+  }
+
+  .header-number {
+    font-size: 0.8rem;
+  }
+
+  .header-wrapper-img-dot {
+    width: 5px;
+    height: 5px;
+    background-image: url("/public/images/ico_dot-min.svg");
+  }
+  
+  .header-text {
+    font-size: 0.6rem;
+  }
+
+}

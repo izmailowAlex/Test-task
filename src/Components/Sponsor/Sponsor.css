@@ -1,0 +1,28 @@
+.sponsor {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sponsor__logo {
+  box-shadow: inset 2px 2px 30px #1C5771, 2px 2px 15px #1C5771;
+}
+
+.sponsor__title_perfom {
+  background: linear-gradient(90.69deg, #1C5771 -13.81%, #4A90AE 23.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+
+  .sponsor {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+}

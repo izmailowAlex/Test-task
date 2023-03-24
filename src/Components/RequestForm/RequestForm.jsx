@@ -25,7 +25,7 @@ function RequestForm() {
         <Link className="request-form__text-link" to="">
           Хотите с нами связаться
         </Link>
-        <span className="request-form__text-fire">
+        <span className="request-form__text_span">
           , оставьте заявку
         </span>
         <p className="request-form__text">

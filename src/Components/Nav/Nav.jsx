@@ -9,27 +9,27 @@ function Nav() {
     <nav ref={navRef} className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <Link className="header__nav-btn" to="/">
+          <Link className="header__nav-btn" to="/gallery">
             <div className="header__btn-text">Выполненные работы</div>
           </Link>
         </li>
         <li className="nav__item">
-          <Link className="header__nav-btn" to="/">
+          <Link className="header__nav-btn" to="/catalog">
             <div className="header__btn-text">Каталог готовых объектов</div>
           </Link>
         </li>
         <li className="nav__item">
-          <Link className="header__nav-btn" to="/">
+          <Link className="header__nav-btn" to="/store">
             <div className="header__btn-text">Магазин стройматериалов</div>
           </Link>
         </li>
         <li className="nav__item">
-          <Link className="header__nav-btn" to="/">
+          <Link className="header__nav-btn" to="/vlog">
             <div className="header__btn-text">Блог</div>
           </Link>
         </li>
         <li className="nav__item">
-          <Link className="header__nav-btn" to="/">
+          <Link className="header__nav-btn" to="/about">
             <div className="header__btn-text">О нас</div>
           </Link>
         </li>

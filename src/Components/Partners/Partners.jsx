@@ -1,12 +1,12 @@
 import "./Partners.css";
 import { useRef } from 'react';
-import logoAlfa from "./../../images/logo_alfa.svg";
+import Sponsor from "../Sponsor/Sponsor";
 
 function Partners() {
   const listRef = useRef();
 
   function handle(e) {
-    const MAX_TRANSLATE_VALUE = 220 * (e.value - 1)
+    const MAX_TRANSLATE_VALUE = 180 * (e.value - 1)
     listRef.current.style.transform=`translate(-${MAX_TRANSLATE_VALUE}px)`;
   }
 
@@ -17,22 +17,22 @@ function Partners() {
         <div className="slider-wrapper">
           <ul ref={listRef} className="slider-content">
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/2PS21k6lAD8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/2PS21k6lAD8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/8Ivrc0J1r0U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/8Ivrc0J1r0U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/ghpL0RkD6kI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/ghpL0RkD6kI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/VwZiHSedsLA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/VwZiHSedsLA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/McLPnr6ujXo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/McLPnr6ujXo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
             <li className="slider-content__video">
-              <iframe className="video__iframe" width="180" height="110" src="https://www.youtube.com/embed/McLPnr6ujXo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe className="video__iframe" width="150" height="90" src="https://www.youtube.com/embed/McLPnr6ujXo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </li>
           </ul>
         </div>
@@ -52,17 +52,7 @@ function Partners() {
           </div>
         </form>
       </div>
-      <div className="partners-sponsor">
-        <div className="sponsor__logo">
-          <img className="sponsor__logo_image" src={logoAlfa} alt="sponsor_logo" />
-        </div>
-        <div className="sponsor__title">
-          <span className="sponsor__title_perfom">
-            Alfa Digital Agency
-          </span>
-           – разработка высоко конверсионных сайтов
-          </div>
-      </div>
+      <Sponsor />
     </div>
   );
 }

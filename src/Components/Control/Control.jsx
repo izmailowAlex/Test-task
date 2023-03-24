@@ -12,14 +12,14 @@ const options = [
 ];
 
 const options2 = [
-  { value: "русский", label: "Русский", src: "/ico_ru.png" },
-  { value: "английский", label: "Английский", src: "/ico_en.png" }
+  { value: "русский", label: "Русский", src: "/images/ico_ru.png" },
+  { value: "английский", label: "Английский", src: "/images/ico_en.png" }
 ];
 
 function Control() {
   const [currentChoise, setCurrentChoise] = useState('политика');
   const [currentLanguage, setCurrentLanguage] = useState('русский');
-  const [currentSrc, setCurrentSrc] = useState('/ico_ru.png');
+  const [currentSrc, setCurrentSrc] = useState('/images/ico_ru.png');
 
   const onChange = (event) => {
     setCurrentChoise(event.target.value);

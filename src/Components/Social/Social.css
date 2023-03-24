@@ -3,3 +3,25 @@
   justify-content: space-between;
   gap: 10px;
 }
+
+@media (min-width: 769px) and (max-width: 1080px) {
+
+  .footer .header-social_wrapper {
+    margin: 0 auto;
+    width: 40vw;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .footer .header-social_wrapper {
+    margin: 0 auto;
+    width: 40vw;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+}

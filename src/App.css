@@ -1,5 +1,28 @@
 .container {
-    padding: 0 30px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+@media (min-width: 1921px) {
+
+  .container {
     max-width: 1920px;
-    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 1080px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
 }
