@@ -1,24 +1,39 @@
 {
   "files": {
-    "main.css": "./static/css/main.6dd59df6.css",
-    "main.js": "./static/js/main.defdd2bd.js",
+    "main.css": "./static/css/main.926c5ff8.css",
+    "main.js": "./static/js/main.77d75988.js",
     "static/media/ico_insta.svg": "./static/media/ico_insta.3fd6518891664a9a52a295bcfef729d7.svg",
     "static/media/employer.svg": "./static/media/employer.42cc50e03a9e65623f2af140f0b30dd9.svg",
     "static/media/ico_facebook.svg": "./static/media/ico_facebook.5cd3391cfbb23f305dedc09ffa56a8de.svg",
     "static/media/ico_fire.svg": "./static/media/ico_fire.fbfcdcf030dd2454e68ff7e356c004aa.svg",
-    "static/media/logo.svg": "./static/media/logo.02fb44d167ba3ccdabeb2eaca05bf7ad.svg",
+    "static/media/logo-min.svg": "./static/media/logo-min.aad5c8d9b0a9ffbc3a29.svg",
+    "static/media/logo.svg": "./static/media/logo.02fb44d167ba3ccdabeb.svg",
     "static/media/ico_whatsApp.svg": "./static/media/ico_whatsApp.65951758f563d6c0f08cbd3cfa79d707.svg",
+    "static/media/logo_alfa.svg": "./static/media/logo_alfa.be790ef0d0938a9369d820b903471136.svg",
+    "static/media/ico_catalog.svg": "./static/media/ico_catalog.5052dd332829e738337b48fa8379d767.svg",
+    "static/media/ico_clouds.svg": "./static/media/ico_clouds.e29f7f641b81289bb406fa94dc283689.svg",
     "static/media/ico_telegram.svg": "./static/media/ico_telegram.5a2f8deaeec15ea285569ecd1ef83bd7.svg",
     "static/media/ico_mail.svg": "./static/media/ico_mail.9c6d9d28eb375068c5e1028d955d3f55.svg",
-    "static/media/ico_phone.svg": "./static/media/ico_phone.da2b67afb97bfe5fd521c0177082179d.svg",
+    "static/media/ico_main.svg": "./static/media/ico_main.c0eb6c3dc599456210d15a7a529c9459.svg",
+    "static/media/ico_phone.svg": "./static/media/ico_phone.da2b67afb97bfe5fd521.svg",
+    "static/media/ico_bag.svg": "./static/media/ico_bag.6aa0f1973cf4405a456000e879ea8361.svg",
+    "static/media/ico_phone-min.svg": "./static/media/ico_phone-min.6aaa6901c9e4b1f258aa.svg",
     "static/media/ico_pen.svg": "./static/media/ico_pen.d11f6b44d87290f483913d56676c09c6.svg",
+    "static/media/ico_man.svg": "./static/media/ico_man.4abefa686cc59eed00419a1857ed2152.svg",
+    "static/media/arrow.svg": "./static/media/arrow.c391abcaab9e53d86edc324a7b6f7dbd.svg",
     "index.html": "./index.html",
-    "static/media/ico_dot.svg": "./static/media/ico_dot.bdee3732cd6e25cd44b0832e62974c43.svg",
-    "main.6dd59df6.css.map": "./static/css/main.6dd59df6.css.map",
-    "main.defdd2bd.js.map": "./static/js/main.defdd2bd.js.map"
+    "static/media/ico_letter.svg": "./static/media/ico_letter.3b270dab4740650cb3c25ca4454d8050.svg",
+    "static/media/ico_tick-min.svg": "./static/media/ico_tick-min.c5ccd9ad8128a4bb2449.svg",
+    "static/media/ico_tick.svg": "./static/media/ico_tick.ad935ce0ed0cf23420f4.svg",
+    "static/media/arrow_select.svg": "./static/media/arrow_select.c6bf891e4a10a1fbc234.svg",
+    "static/media/arrow_gold-min.svg": "./static/media/arrow_gold-min.da18413635267c1b095b.svg",
+    "static/media/ico_dot.svg": "./static/media/ico_dot.bdee3732cd6e25cd44b0.svg",
+    "static/media/ico_dot-min.svg": "./static/media/ico_dot-min.c3dacead84268740c3d8.svg",
+    "main.926c5ff8.css.map": "./static/css/main.926c5ff8.css.map",
+    "main.77d75988.js.map": "./static/js/main.77d75988.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd59df6.css",
-    "static/js/main.defdd2bd.js"
+    "static/css/main.926c5ff8.css",
+    "static/js/main.77d75988.js"
   ]
 }
